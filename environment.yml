@@ -1,5 +1,7 @@
 name: LiIonMl
 channels:
+  - anaconda
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
@@ -22,6 +24,7 @@ dependencies:
   - wheel=0.37.1
   - xz=5.2.5
   - zlib=1.2.12
+  - pip==21.2.4
   - pip:
     - argon2-cffi==21.3.0
     - argon2-cffi-bindings==21.2.0
@@ -95,7 +98,6 @@ dependencies:
     - pexpect==4.8.0
     - pickleshare==0.7.5
     - pillow==9.1.1
-    - pip==21.2.4
     - plotly==5.8.2
     - prometheus-client==0.14.1
     - prompt-toolkit==3.0.29
